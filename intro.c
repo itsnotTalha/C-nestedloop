@@ -1,5 +1,6 @@
 /******************************************* 
-Intro
+WAP that will print a pattern based on the input integer n. Please see the sample input
+output.
 _____               ______
 INPUT               OUTPUT
 -----               ------

@@ -4,9 +4,9 @@ output.
 _____               ______
 INPUT               OUTPUT
 -----               ------
-3                    123
-                     234
-                     345
+3                   1
+                    23
+                    345
 ********************************************/
 #include<stdio.h>
 int main(){
@@ -15,7 +15,7 @@ int main(){
     scanf("%d",&n);
     for(int i=1;i<=n;i++){
         int count=i;
-        for(int j=1;j<=n;j++){
+        for(int j=1;j<=i;j++){
         printf("%d",count);
         count++;
         }
