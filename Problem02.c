@@ -1,12 +1,11 @@
 /******************************************* 
-WAP that will print a pattern based on the input integer n. Please see the sample input
-output.
+Intro
 _____               ______
 INPUT               OUTPUT
 -----               ------
-3                   123
-                    123
-                    123
+3                    123
+                     234
+                     345
 ********************************************/
 #include<stdio.h>
 int main(){
@@ -14,9 +13,12 @@ int main(){
     printf("Enter term value:");
     scanf("%d",&n);
     for(int i=1;i<=n;i++){
-    for(int j=1;j<=n;j++)
-    printf("%d",j);
-    puts("");
+        int count=i;
+        for(int j=1;j<=n;j++){
+        printf("%d",count);
+        count++;
+        }
+        puts("");
     }
 }
 /******************************************* 
